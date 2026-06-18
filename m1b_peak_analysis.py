@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 表19-7 頭部第一波最大日成交量佔貨幣供給額(M1B)比重分析表
 對應圖片 (115年5月15日)，單位：億元
@@ -55,122 +55,122 @@ TPEX_API = (
 # ─────────────────────────────────────────────────────────────────────────────
 PEAKS = [
     # ── 1989 (78年) 大漲 上市 ─────────────────────────────────────────────
-    dict(market="上市", type="大漲",
+    dict(market="上市", jl_type="金龍大漲", type="大漲",
          peak_date="1989.09.26", peak_pts=10843.96,
          max_vol=1941.71, vol_date="1989.08.28", m1b_ym="198908",
          group="G78", group_lbl=None),         # 無小計，獨立列
     # ── 1990 (79年) 大漲 上市 ─────────────────────────────────────────────
-    dict(market="上市", type="大漲",
+    dict(market="上市", jl_type="金龍大漲", type="大漲",
          peak_date="1990.02.12", peak_pts=12682.41,
          max_vol=2162.02, vol_date="1990.03.16", m1b_ym="199003",
          group="G79", group_lbl=None),
     # ── 1997 (86年) 大漲 上市+上櫃 ──────────────────────────────────────
-    dict(market="上市", type="大漲",
+    dict(market="上市", jl_type="金龍大漲", type="大漲",
          peak_date="1997.08.27", peak_pts=10256.10,
          max_vol=2968.88, vol_date="1997.07.17", m1b_ym="199707",
          group="G86", group_lbl="1997/08"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍大漲", type="大漲",
          peak_date="1997.08.06", peak_pts=348.50,
          max_vol=299.20,  vol_date="1997.08.05", m1b_ym="199708",
          group="G86", group_lbl=None),
     # ── 1998 (87年) 中漲 上市+上櫃 ──────────────────────────────────────
-    dict(market="上市", type="慢漲",
+    dict(market="上市", jl_type="金龍慢漲", type="中跌",
          peak_date="1998.02.27", peak_pts=9378.52,
          max_vol=2776.92, vol_date="1998.02.06", m1b_ym="199802",
          group="G87", group_lbl="1998/02"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍慢漲", type="中跌",
          peak_date="1998.02.24", peak_pts=286.57,
          max_vol=196.25,  vol_date="1998.02.23", m1b_ym="199802",
          group="G87", group_lbl=None),
     # ── 1999 (88年) 中漲 上市+上櫃 ──────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中漲",
          peak_date="1999.07.03", peak_pts=8710.71,
          max_vol=2298.81, vol_date="1999.06.23", m1b_ym="199906",
          group="G88", group_lbl="1999/05-07"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中漲",
          peak_date="1999.05.11", peak_pts=184.08,
          max_vol=120.47,  vol_date="1999.04.10", m1b_ym="199904",
          group="G88", group_lbl=None),
     # ── 2000 (89年) 中漲 上市+上櫃 ──────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中跌",
          peak_date="2000.02.18", peak_pts=10393.59,
          max_vol=3256.01, vol_date="2000.01.11", m1b_ym="200001",
          group="G89", group_lbl="2000/02-04"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中跌",
          peak_date="2000.04.11", peak_pts=329.47,
          max_vol=571.45,  vol_date="2000.04.11", m1b_ym="200004",
          group="G89", group_lbl=None),
     # ── 2007 (96年) 大漲 上市+上櫃 ──────────────────────────────────────
-    dict(market="上市", type="大漲",
+    dict(market="上市", jl_type="金龍大漲", type="大跌",
          peak_date="2007.10.30", peak_pts=9859.62,
          max_vol=3219.16, vol_date="2007.07.26", m1b_ym="200707",
          group="G96", group_lbl="2007/07-10"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍大漲", type="大跌",
          peak_date="2007.07.26", peak_pts=238.35,
          max_vol=1067.55, vol_date="2007.07.26", m1b_ym="200707",
          group="G96", group_lbl=None),
     # ── 2011 (100年) 中漲 上市+上櫃 ─────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中跌",
          peak_date="2011.01.28", peak_pts=9220.69,
          max_vol=None,    vol_date="2011.01.06", m1b_ym="201101",
          group="G100", group_lbl="2011/01-03"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中跌",
          peak_date="2011.03.04", peak_pts=149.33,
          max_vol=None,    vol_date="2011.01.26", m1b_ym="201101",
          group="G100", group_lbl=None),
     # ── 2015 (104年) 中漲 上市+上櫃 ─────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中跌",
          peak_date="2015.04.28", peak_pts=10014.28,
          max_vol=None,    vol_date="2015.04.24", m1b_ym="201504",
          group="G104", group_lbl="2015/03-04"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中跌",
          peak_date="2015.03.24", peak_pts=148.66,
          max_vol=None,    vol_date="2015.03.24", m1b_ym="201503",
          group="G104", group_lbl=None),
     # ── 2018 (107年) 中漲 上市+上櫃 ─────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中跌",
          peak_date="2018.01.23", peak_pts=11270.18,
          max_vol=None,    vol_date="2018.01.23", m1b_ym="201801",
          group="G107", group_lbl="2018/01"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中跌",
          peak_date="2018.01.25", peak_pts=154.58,
          max_vol=None,    vol_date="2018.01.23", m1b_ym="201801",
          group="G107", group_lbl=None),
     # ── 2021 (110年) 中漲 上市+上櫃 ─────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中跌",
          peak_date="2021.07.15", peak_pts=18034.19,
          max_vol=None,    vol_date="2021.05.12", m1b_ym="202105",
          group="G110", group_lbl="2021/07"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中跌",
          peak_date="2021.07.27", peak_pts=225.05,
          max_vol=None,    vol_date="2021.07.13", m1b_ym="202107",
          group="G110", group_lbl=None),
     # ── 2022 (111年) 中漲 上市+上櫃 ─────────────────────────────────────
     # M1B 使用 202112 (110年12月，月底前最新公布值)
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中漲",
          peak_date="2022.01.05", peak_pts=18619.61,
          max_vol=None,    vol_date="2022.01.05", m1b_ym="202112",
          group="G111", group_lbl="2022/01"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中漲",
          peak_date="2022.01.03", peak_pts=238.92,
          max_vol=None,    vol_date="2022.01.07", m1b_ym="202112",
          group="G111", group_lbl=None),
     # ── 2024 (113年) 中漲 上市+上櫃 ─────────────────────────────────────
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中跌",
          peak_date="2024.07.11", peak_pts=24416.67,
          max_vol=None,    vol_date="2024.04.19", m1b_ym="202404",
          group="G113", group_lbl="2024/07"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中跌",
          peak_date="2024.07.17", peak_pts=283.32,
          max_vol=None,    vol_date="2024.03.07", m1b_ym="202403",
          group="G113", group_lbl=None),
     # ── 2026 (115年) 中漲 上市+上櫃 ─────────────────────────────────────
     # M1B 使用 202603 (115年3月，製表時最新公布值)
-    dict(market="上市", type="中漲",
+    dict(market="上市", jl_type="金龍中漲", type="中漲",
          peak_date="2026.04.15", peak_pts=42408.66,
          max_vol=None,    vol_date="2026.05.06", m1b_ym="202603",
          group="G115", group_lbl="2026/04-05"),
-    dict(market="上櫃", type="",
+    dict(market="上櫃", jl_type="金龍中漲", type="中漲",
          peak_date="2026.05.14", peak_pts=431.74,
          max_vol=None,    vol_date="2026.05.06", m1b_ym="202603",
          group="G115", group_lbl=None),
@@ -318,6 +318,7 @@ def build_table(m1b: dict[str, float]) -> list[dict]:
 
         rows.append({
             "market":         pk["market"],
+            "jl_type":        pk.get("jl_type", ""),
             "type":           pk["type"],
             "peak_date":      pk["peak_date"],
             "peak_pts":       pk["peak_pts"],
@@ -341,6 +342,7 @@ def build_table(m1b: dict[str, float]) -> list[dict]:
             )
             rows.append({
                 "market":      "市場小計",
+                "jl_type":     "",
                 "type":        "",
                 "peak_date":   gdata["lbl"],
                 "peak_pts":    None,
@@ -356,14 +358,14 @@ def build_table(m1b: dict[str, float]) -> list[dict]:
 
 
 def print_table(rows: list[dict]):
-    W = 108
+    W = 120
     print()
     print("=" * W)
     print("  表19-7  頭部第一波最大日成交量佔貨幣供給額(M1B)比重分析表"
           "            單位：億元")
     print("  資料來源：CBC EF15M01.csv (M1B百萬元÷100=億元)；TWSE FMTQIK；TPEX st41")
     print("=" * W)
-    header = (f"{'市場':<4} {'類型':<4}  {'波段高點日期':^12}  {'波段高點(點)':>12}  "
+    header = (f"{'市場':<4} {'金龍類型':<8} {'實質類型':<8}  {'波段高點日期':^12}  {'波段高點(點)':>12}  "
           f"{'最大日成交量':>14}  {'最大日成交量日期':^12}  {'M1B日平均':>12}  {'比重%':>8}")
     print(header)
     SEP = "-" * W
@@ -379,7 +381,7 @@ def print_table(rows: list[dict]):
             vol_s = f"{r['max_vol']:>14,.2f}" if r["max_vol"] else f"{'':>14}"
             rat_s = f"{r['ratio']:>7.2f}%" if r["ratio"] else ""
             print(SEP)
-            print(f"{'【市場小計】':<4} {'':4}  {r['peak_date']:^12}  {'':>12}  "
+            print(f"{'【市場小計】':<4} {'':8} {'':8}  {r['peak_date']:^12}  {'':>12}  "
                   f"{vol_s}  {'':^12}  {'':>12}  {rat_s}")
             print(SEP)
         else:
@@ -387,7 +389,7 @@ def print_table(rows: list[dict]):
             vol_s = f"{r['max_vol']:>14,.2f}" if r["max_vol"] else f"{'N/A':>14}"
             m1b_s = f"{r['m1b']:>12,.0f}" if r["m1b"] else f"{'':>12}"
             rat_s = f"{r['ratio']:>7.2f}%" if r["ratio"] else ""
-            print(f"{r['market']:<4} {r['type']:<4}  {r['peak_date']:^12}  "
+            print(f"{r['market']:<4} {r['jl_type']:<8} {r['type']:<8}  {r['peak_date']:^12}  "
                   f"{pts_s}  {vol_s}  {r['vol_date']:^12}  {m1b_s}  {rat_s}")
 
     print("=" * W)
